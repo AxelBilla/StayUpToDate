@@ -7,6 +7,7 @@ const sql = postgres({
     username             : '',            // Username of database user
     password             : '',            // Password of database user
 })
+// CREATE TABLE reddit(id int primary key, subreddit varchar(21), author varchar(20), title varchar(300), content varchar(40000), flair varchar(64), date timestamp, is_media boolean, url varchar(2048), origin varchar(100));
 
 export default class Database{
     static Add = class{
